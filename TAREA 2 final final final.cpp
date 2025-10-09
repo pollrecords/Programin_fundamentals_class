@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <conio.h>
+#include <locale.h>
+
+float yr;
+int resultado;
+
+
+
+int main()
+
+{
+	setlocale(LC_ALL, "es_ES");
+	printf("Ingrese un año para verificar si es bisiesto: ");
+    resultado = scanf("%f" , &yr);
+	
+	{
+if (resultado != 1 || yr != (int)yr)
+	{
+	printf("Error: Entrada invalida. Por favor, ingrese un numero entero.\n");
+	
+}
+else {
+	int fecha = int(yr);
+	
+	if ((fecha % 4 == 0) && ((fecha % 100 != 0) || (fecha % 400 == 0)))
+		printf("El año %d es bisiesto", fecha);
+
+	else
+		printf("el año %d NO es bisiesto", fecha);
+}
+
+return 0;
+}}
