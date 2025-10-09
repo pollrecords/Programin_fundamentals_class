@@ -65,7 +65,7 @@ main()
 				printf("Tu precio total para este plan es: %d", precio_total);
 				break;		
 		
-		default: printf("\n La opción no existe ");
+		default: printf("\n La opciÃ³n no existe ");
 	}
 	getch();
 		
