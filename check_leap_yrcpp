@@ -11,7 +11,7 @@ int main()
 
 {
 	setlocale(LC_ALL, "es_ES");
-	printf("Ingrese un año para verificar si es bisiesto: ");
+	printf("Ingrese un aÃ±o para verificar si es bisiesto: ");
     resultado = scanf("%f" , &yr);
 	
 	{
@@ -24,10 +24,10 @@ else {
 	int fecha = int(yr);
 	
 	if ((fecha % 4 == 0) && ((fecha % 100 != 0) || (fecha % 400 == 0)))
-		printf("El año %d es bisiesto", fecha);
+		printf("El aÃ±o %d es bisiesto", fecha);
 
 	else
-		printf("el año %d NO es bisiesto", fecha);
+		printf("el aÃ±o %d NO es bisiesto", fecha);
 }
 
 return 0;
