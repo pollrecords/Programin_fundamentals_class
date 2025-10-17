@@ -41,7 +41,7 @@ printf("----\n");
 
 	scanf("%d", &votos_finales);
 	if (votos_finales <= 0) {
-             printf("Error: Entrada no válida, por favor ingrese un número.\n");
+             printf("Error: Entrada no vÃ¡lida, por favor ingrese un nÃºmero.\n");
     }else
     	
 
